@@ -1,0 +1,53 @@
+body{
+    background-color: lightgreen;
+    font-family: Arial, sans-serif;
+    color: black;
+    text-align: center;
+}
+button{
+    background-color: lightsalmon;
+    color: white;
+    border-radius: 10px;
+}
+input{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.link{
+    color: white;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.link:hover{
+    color: black;
+    transition: 0.5s;
+}
+.link:active{
+    color: grey;
+    transition: 0.5s;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+footer{
+    background-color: #4f2902;
+    color: white;
+    height: 50px;
+}
+p, a{
+    font-size: 1.5rem;
+}
+a::after {
+    content: " 🔗";
+}
+.videos video {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    height: 500px;
+}
+footer {
+    margin: 0;
+}
